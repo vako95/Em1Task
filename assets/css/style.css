@@ -40,9 +40,10 @@ body {
 
 .main {
     width: 100%;
-    height: auto;
+    height: auto;    
+}
+.main>section:not(:last-of-type){
     padding: 20px 120px;
-
 }
 
 .banner {
@@ -270,7 +271,7 @@ body {
 .about-info {
     width: 100%;
     height: auto;
-    margin-bottom: 74px;
+    margin-bottom: 68px;
 }
 
 .about {
@@ -282,7 +283,7 @@ body {
     gap: 12px;
     justify-content: flex-end;
     justify-self: end;
-    margin-bottom: 84px;
+    padding: 0 0 140px;;
 
 }
 
@@ -454,6 +455,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    padding: 0 0 140px;
     margin-bottom: 140px;
 }
 
@@ -473,7 +475,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 48px;
+    margin-bottom: 68px;
 }
 
 .knowledge-format__info-text>h1 {
@@ -521,7 +523,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 140px;
+    padding: 0 0 140px;
 }
 
 .details-point {
@@ -536,7 +538,7 @@ body {
 .details-point__header {
     font-size: 36px;
     font-weight: 600;
-    margin-bottom: 22px;
+    margin-bottom: 68px;
 }
 
 .details-point__content {
@@ -567,17 +569,11 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin-left: 14px;
-
 }
 
 .details-point__content-list-item:not(:last-of-type) {
     margin-bottom: 6px;
 }
-
-
-
-
-
 
 .course__program {
     width: 100%;
@@ -585,7 +581,8 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-
+    padding: 0px 0px 140px;
+    margin:0px 0px 140px;
 }
 
 .course__program-point {
@@ -603,7 +600,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 24px;
+    margin-bottom: 74px;
 }
 
 .course__program-point__header>h1 {
@@ -619,14 +616,11 @@ body {
     gap: 18px;
     justify-content: flex-start;
     align-items: center;
-
-
 }
 
 .course__program-point-container {
     width: 100%;
     height: 232px;
-
     overflow: hidden;
     border-radius: 28px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
@@ -649,7 +643,7 @@ body {
     padding: 8px 12px;
 }
 
-.course__program-point-container-text>h1 {}
+/* .course__program-point-container-text>h1 {} */
 
 .course__program-point-container-text>span {
     width: 147px;
@@ -660,8 +654,112 @@ body {
 
 
 
+.register{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    
+}
 
+.register-person{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 120px;
+}
+.register-person__header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.register-person__header>h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+.register-person__card{
+    width:auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 20px 26px;
+}
+.register-person__card-text{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 0 34px 0;
+}
+.register-person__card-text>p{
+    font-size: 14px;
+    font-weight: 400;
+    white-space: pre-line;
+    line-height: 20px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.register-person__card-author{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.register-person__card-author-profile{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    margin-right: 42px;
+}
+.register-person__card-author-profile>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.register-person__card-author-name{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.register-person__card-author-name>h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
 
+.register-person__card-author-name-link{
+    width: 18px;
+    height: 18px;
+    display: flex;
+}
+.register-person__card-author-name-link>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
 
 
 
